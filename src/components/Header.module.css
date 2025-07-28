@@ -1,0 +1,85 @@
+.header {
+  position: relative;
+  text-align: center;
+  padding: 3rem 1rem;
+  background: #282c34;
+  color: white;
+}
+
+.topSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+@media (min-width: 600px) {
+  .topSection {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.imageWrapper {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 3px solid #61dafb;
+  flex-shrink: 0;
+}
+
+.profileImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.textContent {
+  text-align: center;
+}
+
+.name {
+  font-size: 2.5rem;
+  margin: 0;
+}
+
+.title {
+  font-size: 1.2rem;
+  font-weight: 400;
+  margin: 0.5rem 0 0;
+  color: #61dafb;
+}
+
+.bio {
+  max-width: 600px;
+  margin: 0 auto;
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+
+.languageToggle {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  z-index: 10;
+}
+
+.languageToggle button {
+  background-color: #61dafb;
+  color: #000;
+  border: none;
+  padding: 0.4rem 0.8rem;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: background-color 0.2s ease;
+}
+
+.languageToggle button:hover {
+  background-color: #21a1f1;
+  color: white;
+}

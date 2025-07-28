@@ -1,0 +1,18 @@
+{
+  "header": {
+    "name": "Richard Bobik",
+    "title": "Full Stack Software Engineer / Developer",
+    "bio": "Passionate and results-driven software engineer with solid experience in application development, testing, and system enhancement. Skilled at working independently as well as in agile team environments. Committed to continuous learning and expanding technical expertise. Motivated by a desire to build scalable, user-centric software that solves real-world problems."
+  },
+  "projects": {
+    "title": "My Projects",
+    "description": "Here’s a selection of personal programming projects I’ve worked on. Click on the links to see live demos or explore the code on GitHub."
+  },
+  "tech": {
+    "title": "Technologies I Work With"
+  },
+  "footer": {
+    "invite": "Let’s build something cool together.",
+    "rights": "All rights reserved."
+  }
+}
